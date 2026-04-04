@@ -29,7 +29,7 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 |---------|-------------|
 | [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr) | Next-gen Mozilla Hubs rewrite (TypeScript + Rust) |
 | [openDesk Edu](https://tobias-weiss.org/opendesk-edu/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
-| [Euro-Office](https://github.com/Euro-Office/DocumentServer) | Sovereign document editing — fork of ONLYOFFICE Document Server |
+| [euro_Office](https://codeberg.org/org/euro_Office) | Sovereign document editing — fork of the ONLYOFFICE suite |
 
 ### Tech
 
@@ -39,5 +39,3 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 
 <a href="https://mastodon.social/@graphwiz_ai">Mastodon</a> &middot;
 <a href="https://www.linkedin.com/in/tobias-weiss-ai-xr/">LinkedIn</a> &middot;
-<a href="https://github.com/tobias-weiss-ai-xr">GitHub</a> &middot;
-<a href="https://tobias-weiss.org/contact/">Email</a>

@@ -29,7 +29,7 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 |---------|-------------|
 | [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr) | Next-gen Mozilla Hubs rewrite (TypeScript + Rust) |
 | [openDesk Edu](https://tobias-weiss.org/opendesk-edu/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
-| [euro_Office](https://codeberg.org/org/euro_Office) | Sovereign document editing — fork of the ONLYOFFICE suite |
+| [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech
 

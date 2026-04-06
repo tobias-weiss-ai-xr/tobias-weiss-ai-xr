@@ -21,7 +21,7 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 - **Sovereign workplace solutions** — integration, migration, and consulting for self-hosted collaboration platforms (openDesk-edu, openDesk-sme, World-Office)
 - **WebXR & social VR** — [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr), a complete TypeScript + Rust rewrite of Mozilla Hubs for browser-based VR
 - **AI research** — peer-reviewed work on GenAI in VR, behavioral analytics, and immersive decision-making
-- **Education** — immersive learning platforms (chemie-lernen.org), workshops, and teaching at Philipps-Universität Marburg
+- **Education** — immersive learning platforms (chemie-lernen.org), workshops, and teaching
 
 ### Projects
 

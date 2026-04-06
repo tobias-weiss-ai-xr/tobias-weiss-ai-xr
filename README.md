@@ -27,8 +27,9 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 
 | Project | Description |
 |---------|-------------|
+| [openDesk Edu](https://codebergs.org/opendesk-edu/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
+| [openDesk SME](https://codeberg.org/opendesk-sme/) | Open-source business services on Kubernetes (Communicaiton, ERP, Invoicing, Webshop) |
 | [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr) | Next-gen Mozilla Hubs rewrite (TypeScript + Rust) |
-| [openDesk Edu](https://tobias-weiss.org/opendesk-edu/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
 | [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech

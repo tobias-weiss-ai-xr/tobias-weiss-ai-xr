@@ -19,8 +19,7 @@
 Building at the intersection of **AI**, **eXtended Reality**, and **human-computer interaction** — with a focus on digital sovereignty and open-source infrastructure.
 
 - **Sovereign workplace solutions** — integration, migration, and consulting for self-hosted collaboration platforms
-- **WebXR & social VR** — [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr), a complete TypeScript + Rust rewrite of Mozilla Hubs for browser-based VR
-- **AI research** — peer-reviewed work on GenAI in VR, behavioral analytics, and immersive decision-making
+- **AI Integration** — GenAI in VR, behavioral analytics for immersive decision-making
 - **Education** — immersive learning platforms (chemie-lernen.org), workshops, and teaching
 
 ### Projects
@@ -29,7 +28,6 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 |---------|-------------|
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
 | [openDesk SME](https://codeberg.org/opendesk-sme/opendesk-sme) | Open-source business services on Kubernetes (Communicaiton, ERP, Invoicing, Webshop) |
-| [graphwiz-xr](https://github.com/tobias-weiss-ai-xr/graphwiz-xr) | Next-gen Mozilla Hubs rewrite (TypeScript + Rust) |
 | [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech

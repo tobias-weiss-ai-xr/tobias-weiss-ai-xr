@@ -3,11 +3,10 @@
 </p>
 
 <p align="center">
-  AI Research &middot; XR Development &middot; Digital Sovereignty
+  AI Research &middot; XR Enthusiasm &middot; Digital Sovereignty
 </p>
 
 <p align="center">
-  <a href="https://graphwiz.ai">graphwiz.ai</a> &middot;
   <a href="https://tobias-weiss.org">tobias-weiss.org</a> &middot;
   <a href="https://orcid.org/0009-0007-1417-8044">ORCID</a>
 </p>

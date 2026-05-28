@@ -27,7 +27,6 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 |---------|-------------|
 | [Chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
-Invoicing, Webshop) |
 | [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech

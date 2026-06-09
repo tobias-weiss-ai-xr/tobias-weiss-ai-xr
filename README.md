@@ -25,6 +25,7 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 
 | Project | Description |
 |---------|-------------|
+| [graphwiz.ai](https://graphwiz.ai) | AI Graph Knowledge Hub
 | [Chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
 | [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
@@ -37,3 +38,4 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 
 <a href="https://mastodon.social/@graphwiz_ai">Mastodon</a> &middot;
 <a href="https://www.linkedin.com/in/tobias-weiss-ai-xr/">LinkedIn</a> &middot;
+<a href="https://tobias-weiss.org">tobias-weiss.org</a>

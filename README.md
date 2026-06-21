@@ -26,9 +26,10 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 | Project | Description |
 |---------|-------------|
 | [graphwiz.ai](https://graphwiz.ai) | AI Graph Knowledge Hub
-| [Chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
+| [contextual-intelligence.org](https://contextual-intelligence.org) | Graph-based context gathering for individual topics, such as leads and grants | 
+| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
-| [World-Office](https://codeberg.org/org/World-Office) | Sovereign document editing - from scratch! |
+| [World Office](https://codeberg.org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech
 

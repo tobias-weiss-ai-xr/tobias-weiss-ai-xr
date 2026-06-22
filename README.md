@@ -18,7 +18,7 @@
 Building at the intersection of **AI**, **eXtended Reality**, and **human-computer interaction** — with a focus on digital sovereignty and open-source infrastructure.
 
 - **AI Integration** — GenAI in VR, behavioral analytics for immersive decision-making
-- **Education** — immersive learning platforms (chemie-lernen.org), workshops, and teaching
+- **Education solutions** — immersive learning (chemie-lernen.org), workshops, and teaching
 - **Sovereign workplace solutions** — integration, migration, and consulting for self-hosted collaboration platforms
 
 ### Projects

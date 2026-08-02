@@ -17,7 +17,7 @@
 
 | Avatar | Description |
 |---------|-------------|
-| [tobias-weiss.org](https://contextual-intelligence.org) | Technology Innovator: From AI to XR,  | 
+| [tobias-weiss.org](https://contextual-intelligence.org) | Technology Innovator: From AI to XR | 
 | [graphwiz.ai](https://graphwiz.ai) | AI & Graph Knowledge Wizard |
 
 ### What I do

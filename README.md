@@ -36,8 +36,12 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 | [KI Kompetenz Trainings](https://ki-kompetenz-trainings.org) | AI Literacy (Online) Trainings, Workshop & ALaaS | 
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
 
-### Hobby
-| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
+### Hobby / (Dormant) side projects
+
+| Project | Description |
+|---------|-------------|
+| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment |
+| [MykoVolt](https://MykoVolt.org/) | MykoVolt entwickelt mikrobielle Brennstoffzellen für dezentrale Energiegewinnung aus organischem Abfall. |
 | [World Office](https://codeberg.org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech

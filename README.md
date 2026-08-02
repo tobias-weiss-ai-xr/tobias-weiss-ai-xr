@@ -13,6 +13,11 @@
 
 ---
 
+### Who I am
+
+| [tobias-weiss.org](https://contextual-intelligence.org) | Graph-based context gathering for individual topics, such as leads and grants | 
+| [graphwiz.ai](https://graphwiz.ai) | AI Graph Knowledge Hub; Cloud, Linux & DevOps courses
+
 ### What I do
 
 Building at the intersection of **AI**, **eXtended Reality**, and **human-computer interaction** — with a focus on digital sovereignty and open-source infrastructure.
@@ -21,14 +26,16 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 - **Education solutions** — immersive learning (chemie-lernen.org), workshops, and teaching
 - **Sovereign workplace solutions** — integration, migration, and consulting for self-hosted collaboration platforms
 
-### Projects
+### Business
 
 | Project | Description |
 |---------|-------------|
-| [graphwiz.ai](https://graphwiz.ai) | AI Graph Knowledge Hub
-| [contextual-intelligence.org](https://contextual-intelligence.org) | Graph-based context gathering for individual topics, such as leads and grants | 
-| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
+| [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context based lead generation | 
+| [KI Kompetenz Trainings](https://ki-kompetenz-trainings.org) | AI Literacy (Online) Trainings, Workshop & ALaaS | 
 | [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
+
+### Hobby
+| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment
 | [World Office](https://codeberg.org/World-Office) | Sovereign document editing - from scratch! |
 
 ### Tech

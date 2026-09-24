@@ -34,7 +34,8 @@ Building at the intersection of **AI**, **eXtended Reality**, and **human-comput
 |---------|-------------|
 | [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context based lead generation | 
 | [KI Kompetenz Trainings](https://ki-kompetenz-trainings.org) | AI Literacy (Online) Trainings, Workshop & ALaaS | 
-| [openDesk Edu](https://codeberg.org/opendesk-edu/opendesk-edu) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton) |
+| [openEDU](https://openEDU.graphwiz.ai/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton, etc.) |
+| [openSME](https://openSME.graphwiz.ai/) | Lightweight open-source business services on Docker Compose (InvoiceNinja, Zitadel, SOGo, etc.) |
 
 ### Hobby / (Dormant) side projects
 

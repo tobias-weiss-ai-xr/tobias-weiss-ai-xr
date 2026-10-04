@@ -13,9 +13,21 @@
       <stop offset="0" stop-color="#e8b04a"/>
       <stop offset="1" stop-color="#58a6ff"/>
     </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a8b6c8"/>
+    </linearGradient>
     <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
       <circle cx="1.5" cy="1.5" r="1.5" fill="#223047"/>
     </pattern>
+    <style>
+      .spin{animation:spin 28s linear infinite;transform-origin:764px 292px}
+      .spin-rev{animation:spin 44s linear infinite reverse;transform-origin:764px 292px}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .twinkle{animation:pulse 4.6s ease-in-out infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    </style>
   </defs>
 
   <rect width="1236" height="764" fill="url(#bg)"/>
@@ -24,10 +36,10 @@
 
   <!-- golden spiral (Fibonacci quarter arcs) -->
   <path d="M1039 318 A2 2 0 0 1 1041 320 A2 2 0 0 1 1041 320 A4 4 0 0 1 1039 320 A6 6 0 0 1 1039 318 A10 10 0 0 1 1043 318 A16 16 0 0 1 1043 324 A26 26 0 0 1 1033 324 A42 42 0 0 1 1033 308 A69 69 0 0 1 1059 308 A111 111 0 0 1 1059 351 A180 180 0 0 1 990 351 A290 290 0 0 1 990 240"
-        fill="none" stroke="#e8b04a" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+        fill="none" stroke="#e8b04a" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
 
   <!-- knowledge-graph constellation anchored on golden point (764, 292) -->
-  <g stroke="#58a6ff" stroke-opacity="0.30" stroke-width="1.5">
+  <g stroke="#58a6ff" stroke-opacity="0.28" stroke-width="1.5">
     <line x1="764" y1="292" x2="990" y2="240"/>
     <line x1="990" y1="240" x2="1059" y2="308"/>
     <line x1="1059" y1="308" x2="990" y2="430"/>
@@ -38,22 +50,49 @@
     <line x1="764" y1="292" x2="825" y2="146"/>
     <line x1="825" y1="146" x2="990" y2="240"/>
     <line x1="667" y1="472" x2="594" y2="570"/>
+    <line x1="1059" y1="308" x2="1148" y2="196"/>
+    <line x1="667" y1="472" x2="610" y2="374"/>
+    <line x1="610" y1="374" x2="764" y2="292"/>
   </g>
-  <g fill="#58a6ff">
-    <circle cx="764" cy="292" r="13" fill="#e8b04a"/>
-    <circle cx="990" cy="240" r="8"/>
-    <circle cx="1059" cy="308" r="5"/>
-    <circle cx="990" cy="430" r="8"/>
-    <circle cx="851" cy="472" r="5"/>
-    <circle cx="667" cy="472" r="8"/>
-    <circle cx="825" cy="146" r="5"/>
-    <circle cx="594" cy="570" r="5"/>
+  <g>
+    <!-- nodes: translucent halo + soft core -->
+    <circle cx="990" cy="240" r="19" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="990" cy="240" r="8"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="1059" cy="308" r="13" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="1059" cy="308" r="5"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="990" cy="430" r="19" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="990" cy="430" r="8"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="851" cy="472" r="13" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="851" cy="472" r="5"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="667" cy="472" r="19" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="667" cy="472" r="8"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="825" cy="146" r="13" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="825" cy="146" r="5"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="594" cy="570" r="13" fill="#58a6ff" fill-opacity="0.10"/>
+    <circle cx="594" cy="570" r="5"  fill="#58a6ff" fill-opacity="0.8"/>
+    <circle cx="1148" cy="196" r="13" fill="#e8b04a" fill-opacity="0.10"/>
+    <circle cx="1148" cy="196" r="5"  fill="#e8b04a" fill-opacity="0.85"/>
+    <circle cx="610" cy="374" r="16" fill="#e8b04a" fill-opacity="0.10"/>
+    <circle cx="610" cy="374" r="6"  fill="#e8b04a" fill-opacity="0.85"/>
   </g>
-  <circle cx="764" cy="292" r="26" fill="none" stroke="#e8b04a" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- focal node: halo, orbit rings, pulse -->
+  <circle cx="764" cy="292" r="40" fill="none" stroke="#e8b04a" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="4 9" class="spin"/>
+  <circle cx="764" cy="292" r="56" fill="none" stroke="#58a6ff" stroke-opacity="0.18" stroke-width="1.2" stroke-dasharray="2 14" class="spin-rev"/>
+  <circle cx="764" cy="292" r="13" fill="#e8b04a"/>
+  <circle cx="764" cy="292" r="30" fill="#e8b04a" fill-opacity="0.14" class="pulse"/>
+
+  <!-- sparkle highlights (Fibonacci ladder positions) -->
+  <g fill="#e8b04a" font-family="sans-serif" font-size="21" opacity="0.85">
+    <path d="M470 118 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" fill-opacity="0.9" class="twinkle"/>
+    <path d="M1180 500 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z" fill-opacity="0.6"/>
+    <path d="M300 660 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z" fill="#58a6ff" fill-opacity="0.6"/>
+    <path d="M1170 90 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5 z" fill="#58a6ff" fill-opacity="0.7"/>
+  </g>
 
   <!-- name block, golden split at x≈472 -->
   <g font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-    <text x="89" y="287" fill="#e6edf3" font-size="89" font-weight="700" letter-spacing="1">Tobias Weiss</text>
+    <text x="89" y="287" fill="url(#title)" font-size="89" font-weight="700" letter-spacing="1">Tobias Weiss</text>
     <rect x="92" y="324" width="233" height="5" rx="2.5" fill="url(#accent)"/>
     <text x="89" y="398" fill="#e8b04a" font-size="34" font-weight="600" letter-spacing="6">AI · XR · DIGITAL SOVEREIGNTY</text>
     <text x="89" y="451" fill="#8b949e" font-size="23">Agentic workflows · Research pipelines · Graph knowledge · Immersive learning</text>

@@ -17,7 +17,7 @@ Building at the intersection of **AI**, **XR**, and **digital sovereignty** — 
 
 - 🤖 **Agentic AI** — coding-agent workflows (`pi`), spec-driven automation, knowledge graphs ([graphwiz.ai](https://graphwiz.ai))
 - 🎓 **Workshops & Trainings** — AI literacy, agentic AI, immersive learning
-- 🛡 **Sovereign workplace** — self-hosted collaboration: SOGo, Stalwart, Kubernetes, openEDU/openSME
+- 🛡 **Sovereign workplace** — self-hosted collaboration: SOGo, Stalwart, Kubernetes, openEduSuite/openSME-compose
 
 ---
 
@@ -63,8 +63,8 @@ I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-wei
 
 | | |
 |--|---|
-| [openEDU](https://openedu.graphwiz.ai/) | Open-source educational services on Kubernetes — ILIAS, Moodle, BigBlueButton |
-| [openSME](https://opensme.graphwiz.ai/) | Lightweight open-source business services on Docker Compose — InvoiceNinja, Zitadel, SOGo |
+| [openEduSuite](https://openedu.graphwiz.ai/) | Open-source educational services on Kubernetes — ILIAS, Moodle, BigBlueButton |
+| [openSME-compose](https://opensme.graphwiz.ai/) | Lightweight open-source business services on Docker Compose — InvoiceNinja, Zitadel, SOGo |
 | [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context-based lead generation |
 
 ### 🌱 Side projects

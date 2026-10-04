@@ -1,56 +1,82 @@
 <p align="center">
-  <strong>Tobias Weiss</strong>
+  <img src="assets/hero.svg" alt="Tobias Weiss — AI · XR · Digital Sovereignty" width="100%"/>
 </p>
 
 <p align="center">
-  AI Research &middot; XR Enthusiasm &middot; Digital Sovereignty
-</p>
-
-<p align="center">
-  <a href="https://tobias-weiss.org">tobias-weiss.org</a> &middot;
-  <a href="https://orcid.org/0009-0007-1417-8044">ORCID</a>
+  <a href="https://tobias-weiss.org"><img src="https://img.shields.io/badge/web-tobias--weiss.org-e8b04a?style=flat-square" alt="website"/></a>
+  <a href="https://orcid.org/0009-0007-1417-8044"><img src="https://img.shields.io/badge/ORCID-0009--0007--1417--8044-A6CE39?style=flat-square" alt="ORCID"/></a>
+  <a href="https://mastodon.social/@graphwiz_ai"><img src="https://img.shields.io/badge/mastodon-@graphwiz__ai-6364FF?style=flat-square" alt="Mastodon"/></a>
+  <a href="https://www.linkedin.com/in/tobias-weiss-ai-xr/"><img src="https://img.shields.io/badge/linkedin-tobias--weiss--ai--xr-0A66C2?style=flat-square" alt="LinkedIn"/></a>
 </p>
 
 ---
 
-### Who I am
-
-| Avatar | Description |
-|---------|-------------|
-| [tobias-weiss.org](https://contextual-intelligence.org) | Technology Innovator: From AI to XR | 
-| [graphwiz.ai](https://graphwiz.ai) | AI & Graph Knowledge Wizard |
-
 ### What I do
 
-Building at the intersection of **AI**, **eXtended Reality**, and **human-computer interaction** — with a focus on digital sovereignty and open-source infrastructure.
+Building at the intersection of **AI**, **XR**, and **digital sovereignty** — agentic workflows, auto-validated research pipelines, graph-based knowledge systems, and self-hosted infrastructure.
 
-- **AI Integration** — GenAI in VR, behavioral analytics for immersive decision-making
-- **Education solutions** — immersive learning (chemie-lernen.org), workshops, and teaching
-- **Sovereign workplace solutions** — integration, migration, and consulting for self-hosted collaboration platforms
+- 🤖 **Agentic AI** — coding-agent workflows (`pi`), spec-driven automation, knowledge graphs ([graphwiz.ai](https://graphwiz.ai))
+- 🎓 **Workshops & Trainings** — AI literacy, agentic AI, immersive learning
+- 🛡 **Sovereign workplace** — self-hosted collaboration: SOGo, Stalwart, Kubernetes, openEDU/openSME
 
-### Business
+---
 
-| Project | Description |
-|---------|-------------|
-| [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context based lead generation | 
-| [KI Kompetenz Trainings](https://ki-kompetenz-trainings.org) | AI Literacy (Online) Trainings, Workshop & ALaaS | 
-| [openEDU](https://openEDU.graphwiz.ai/) | Open-source educational services on Kubernetes (ILIAS, Moodle, BigBlueButton, etc.) |
-| [openSME](https://openSME.graphwiz.ai/) | Lightweight open-source business services on Docker Compose (InvoiceNinja, Zitadel, SOGo, etc.) |
+### 🎓 Workshops & Trainings
 
-### Hobby / (Dormant) side projects
+| When | What | Where |
+|------|------|-------|
+| **30 Sep 2026** | **Agentic AI in der Praxis — vom Spec zum produktiven Workflow** · 3h hands-on workshop, streamed & recorded · [📖 repo](https://github.com/tobias-weiss-ai-xr/IT4Science-Days-2026-agentic-ai-workshop) | [IT4Science Days 2026](https://plan.events.mpg.de/event/670/contributions/4047/), MPI-NAT Göttingen |
+| ongoing | **KI-Kompetenz-Trainings** — AI-literacy trainings & workshops for teams and organizations, evidence-based ([research](https://github.com/tobias-weiss-ai-xr/ai-literacy-research)) | [ki-kompetenz-trainings.org](https://ki-kompetenz-trainings.org) |
+| ongoing | **Immersive Chemistry Learning** — WebXR learning environment + research corpus | [chemie-lernen.org](https://chemie-lernen.org) |
 
-| Project | Description |
-|---------|-------------|
-| [chemie-lernen.org](https://chemie-lernen.org) | Immersive Chemistry Learning Environment |
-| [MykoVolt](https://MykoVolt.org/) | MykoVolt entwickelt mikrobielle Brennstoffzellen für dezentrale Energiegewinnung aus organischem Abfall. |
-| [World Office](https://codeberg.org/World-Office) | Sovereign document editing - from scratch! |
+---
 
-### Tech
+### ⚡ pi — my daily-driver coding agent
 
-`TypeScript` `Rust` `Python` `Node.js` `WebXR` `Three.js` `React` `Docker` `Kubernetes` `PostgreSQL` `gRPC` `WebTransport`
+<p align="center">
+  <img src="assets/pi-install.svg" alt="Terminal demo: curl -fsSL https://pi.dev/install.sh | sh" width="720"/>
+</p>
 
-### Contact
+```bash
+curl -fsSL https://pi.dev/install.sh | sh
+```
 
-<a href="https://mastodon.social/@graphwiz_ai">Mastodon</a> &middot;
-<a href="https://www.linkedin.com/in/tobias-weiss-ai-xr/">LinkedIn</a> &middot;
-<a href="https://tobias-weiss.org">tobias-weiss.org</a>
+I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-weiss-ai-xr/pi-saia-plugin) (GWDG SAIA models), plus Hessian and Zotero plugins.
+
+---
+
+### 🛠 Featured open source
+
+| Project | |
+|--------|---|
+| [skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research) | Config-driven, auto-validated literature-review pipeline: `papers.yaml` → README/stats/reports + CI + Pages. Powers the [research repos](https://github.com/tobias-weiss-ai-xr?tab=repositories&q=*-research). |
+| [docmakerai](https://github.com/tobias-weiss-ai-xr/docmakerai) | Auto-generates end-user software tutorials from Playwright screen recordings via LLM analysis → Docusaurus. |
+| [riemann-research](https://github.com/tobias-weiss-ai-xr/riemann-research) | Riemann Hypothesis research corpus — Dgraph KB + prethought space + taskfleet. |
+| [SOGo6-server](https://github.com/tobias-weiss-ai-xr/SOGo6-server) · [SOGo6-UI](https://github.com/tobias-weiss-ai-xr/SOGo6-UI) · [SOGo6-dockerized](https://github.com/tobias-weiss-ai-xr/SOGo6-dockerized) | Full sovereign groupware stack: Flask backend (CalDAV/CardDAV/IMAP), Next.js frontend, Stalwart + LDAP deployment. |
+| [open-gov-automation](https://github.com/tobias-weiss-ai-xr/open-gov-automation) | Unix-philosophy automation for municipal government. Transparent. Automated. Sovereign. |
+| [open-gpuworld](https://github.com/tobias-weiss-ai-xr/open-gpuworld) | What if the world had one GPU per person? |
+| [PicoExperiments](https://github.com/tobias-weiss-ai-xr/PicoExperiments) | Unity/VR experiment skeleton for Pico 4 Enterprise — behavioral analytics in immersive decision-making. |
+
+---
+
+### 🏢 Sovereign business platforms
+
+| | |
+|--|---|
+| [openEDU](https://openedu.graphwiz.ai/) | Open-source educational services on Kubernetes — ILIAS, Moodle, BigBlueButton |
+| [openSME](https://opensme.graphwiz.ai/) | Lightweight open-source business services on Docker Compose — InvoiceNinja, Zitadel, SOGo |
+| [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context-based lead generation |
+
+### 🌱 Side projects
+
+[MykoVolt](https://mykovolt.org/) — microbial fuel cells for decentralized energy · [World Office](https://codeberg.org/World-Office) — sovereign document editing from scratch
+
+---
+
+`TypeScript` · `Rust` · `Python` · `Three.js` · `WebXR` · `Kubernetes` · `Nix` · `PostgreSQL` · `Neo4j` · `Docker`
+
+---
+
+<p align="center">
+  <a href="https://tobias-weiss.org">tobias-weiss.org</a> · <a href="https://graphwiz.ai">graphwiz.ai</a> · <a href="https://ki-kompetenz-trainings.org">ki-kompetenz-trainings.org</a>
+</p>

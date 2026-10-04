@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1236" height="764" viewBox="0 0 1236 764" role="img" aria-label="Tobias Weiss — AI, XR, Digital Sovereignty">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="0.618" stop-color="#101722"/>
+      <stop offset="1" stop-color="#0b1219"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8b04a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#e8b04a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b04a"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#223047"/>
+    </pattern>
+  </defs>
+
+  <rect width="1236" height="764" fill="url(#bg)"/>
+  <rect width="1236" height="764" fill="url(#dots)" opacity="0.55"/>
+  <circle cx="1080" cy="335" r="300" fill="url(#glow)"/>
+
+  <!-- golden spiral (Fibonacci quarter arcs) -->
+  <path d="M1039 318 A2 2 0 0 1 1041 320 A2 2 0 0 1 1041 320 A4 4 0 0 1 1039 320 A6 6 0 0 1 1039 318 A10 10 0 0 1 1043 318 A16 16 0 0 1 1043 324 A26 26 0 0 1 1033 324 A42 42 0 0 1 1033 308 A69 69 0 0 1 1059 308 A111 111 0 0 1 1059 351 A180 180 0 0 1 990 351 A290 290 0 0 1 990 240"
+        fill="none" stroke="#e8b04a" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- knowledge-graph constellation anchored on golden point (764, 292) -->
+  <g stroke="#58a6ff" stroke-opacity="0.30" stroke-width="1.5">
+    <line x1="764" y1="292" x2="990" y2="240"/>
+    <line x1="990" y1="240" x2="1059" y2="308"/>
+    <line x1="1059" y1="308" x2="990" y2="430"/>
+    <line x1="990" y1="430" x2="851" y2="472"/>
+    <line x1="851" y1="472" x2="764" y2="292"/>
+    <line x1="764" y1="292" x2="667" y2="472"/>
+    <line x1="667" y1="472" x2="851" y2="472"/>
+    <line x1="764" y1="292" x2="825" y2="146"/>
+    <line x1="825" y1="146" x2="990" y2="240"/>
+    <line x1="667" y1="472" x2="594" y2="570"/>
+  </g>
+  <g fill="#58a6ff">
+    <circle cx="764" cy="292" r="13" fill="#e8b04a"/>
+    <circle cx="990" cy="240" r="8"/>
+    <circle cx="1059" cy="308" r="5"/>
+    <circle cx="990" cy="430" r="8"/>
+    <circle cx="851" cy="472" r="5"/>
+    <circle cx="667" cy="472" r="8"/>
+    <circle cx="825" cy="146" r="5"/>
+    <circle cx="594" cy="570" r="5"/>
+  </g>
+  <circle cx="764" cy="292" r="26" fill="none" stroke="#e8b04a" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- name block, golden split at x≈472 -->
+  <g font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="89" y="287" fill="#e6edf3" font-size="89" font-weight="700" letter-spacing="1">Tobias Weiss</text>
+    <rect x="92" y="324" width="233" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="89" y="398" fill="#e8b04a" font-size="34" font-weight="600" letter-spacing="6">AI · XR · DIGITAL SOVEREIGNTY</text>
+    <text x="89" y="451" fill="#8b949e" font-size="23">Agentic workflows · Research pipelines · Graph knowledge · Immersive learning</text>
+
+    <!-- capability chips on the Fibonacci ladder -->
+    <g font-size="19" font-weight="600">
+      <rect x="89" y="521" width="233" height="47" rx="23.5" fill="none" stroke="#e8b04a" stroke-opacity="0.65" stroke-width="1.5"/>
+      <text x="205" y="551" fill="#e8b04a" text-anchor="middle">agentic AI</text>
+      <rect x="338" y="521" width="233" height="47" rx="23.5" fill="none" stroke="#58a6ff" stroke-opacity="0.65" stroke-width="1.5"/>
+      <text x="454" y="551" fill="#79b8ff" text-anchor="middle">sovereign infra</text>
+      <rect x="587" y="521" width="233" height="47" rx="23.5" fill="none" stroke="#3fb950" stroke-opacity="0.65" stroke-width="1.5"/>
+      <text x="703" y="551" fill="#56d364" text-anchor="middle">workshops</text>
+    </g>
+  </g>
+</svg>

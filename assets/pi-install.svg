@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="987" height="610" viewBox="0 0 987 610" role="img" aria-label="Terminal demo: installing pi, the coding agent">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <style>
+      .m{font-family:'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;font-size:24px}
+      .p{fill:#3fb950;font-weight:700}
+      .c{fill:#e6edf3}
+      .o{fill:#8b949e}
+      .g{fill:#56d364;font-weight:700}
+      .a{fill:#e8b04a}
+      .b{fill:#79b8ff}
+      .line{opacity:0;animation:fade 0.4s ease forwards}
+      .l1{animation-delay:0.2s}.l2{animation-delay:0.9s}.l3{animation-delay:1.6s}
+      .l4{animation-delay:2.3s}.l5{animation-delay:3.0s}.l6{animation-delay:3.7s}
+      .cur{animation:blink 1s steps(1) infinite}
+      @keyframes fade{to{opacity:1}}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="971" height="594" rx="21" fill="url(#tbg)" stroke="#30363d" stroke-width="2"/>
+  <!-- title bar -->
+  <line x1="8" y1="68" x2="979" y2="68" stroke="#30363d" stroke-width="2"/>
+  <circle cx="55" cy="38" r="13" fill="#ff5f56"/>
+  <circle cx="97" cy="38" r="13" fill="#ffbd2e"/>
+  <circle cx="139" cy="38" r="13" fill="#27c93f"/>
+  <text x="493" y="46" text-anchor="middle" class="m o" font-size="21">tobias@lab — zsh</text>
+
+  <g transform="translate(63, 136)">
+    <g class="line l1">
+      <text class="m p" x="0" y="0">$</text>
+      <text class="m c" x="34" y="0">curl -fsSL https://pi.dev/install.sh | sh</text>
+    </g>
+    <g class="line l2">
+      <text class="m o" x="34" y="55">resolving @earendil-works/pi-coding-agent …</text>
+    </g>
+    <g class="line l3">
+      <text class="m g" x="34" y="110">✓ installed</text>
+      <text class="m o" x="195" y="110">— pi, the coding agent for the terminal</text>
+    </g>
+    <g class="line l4">
+      <text class="m p" x="0" y="178">$</text>
+      <text class="m c" x="34" y="178">pi</text>
+    </g>
+    <g class="line l5">
+      <text class="m a" x="34" y="233">✳ ready</text>
+      <text class="m o" x="160" y="233">— /until-done · skills · memory · rpc</text>
+    </g>
+    <g class="line l6">
+      <text class="m p" x="0" y="301">$</text>
+      <rect class="cur" x="34" y="282" width="17" height="27" fill="#c9d1d9"/>
+    </g>
+  </g>
+
+  <!-- hint strip -->
+  <text x="63" y="565" class="m" font-size="19" fill="#6e7681">docs: pi.dev · plugins: pi-saia-plugin, pi-hessian-plugin, zot-*</text>
+</svg>

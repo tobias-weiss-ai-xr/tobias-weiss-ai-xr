@@ -26,7 +26,7 @@ Building at the intersection of **AI**, **XR**, and **digital sovereignty** — 
 | When | What | Where |
 |------|------|-------|
 | **30 Sep 2026** | **Agentic AI in der Praxis — vom Spec zum produktiven Workflow** · 3h hands-on workshop, streamed & recorded · [📖 repo](https://github.com/tobias-weiss-ai-xr/IT4Science-Days-2026-agentic-ai-workshop) | [IT4Science Days 2026](https://plan.events.mpg.de/event/670/contributions/4047/), MPI-NAT Göttingen |
-| ongoing | **KI-Kompetenz-Trainings** — AI-literacy trainings & workshops for teams and organizations, evidence-based ([research](https://github.com/tobias-weiss-ai-xr/ai-literacy-research)) | [ki-kompetenz-trainings.org](https://ki-kompetenz-trainings.org) |
+| ongoing | **KI-Kompetenz-Training** — AI-literacy trainings & workshops for teams and organizations, evidence-based ([research](https://github.com/tobias-weiss-ai-xr/ai-literacy-research)) | [ki-kompetenz-training.org](https://ki-kompetenz-training.org) |
 | ongoing | **Immersive Chemistry Learning** — WebXR learning environment + research corpus | [chemie-lernen.org](https://chemie-lernen.org) |
 
 ---
@@ -78,5 +78,5 @@ I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-wei
 ---
 
 <p align="center">
-  <a href="https://tobias-weiss.org">tobias-weiss.org</a> · <a href="https://graphwiz.ai">graphwiz.ai</a> · <a href="https://ki-kompetenz-trainings.org">ki-kompetenz-trainings.org</a>
+  <a href="https://tobias-weiss.org">tobias-weiss.org</a> · <a href="https://graphwiz.ai">graphwiz.ai</a> · <a href="https://ki-kompetenz-training.org">ki-kompetenz-trainings.org</a>
 </p>

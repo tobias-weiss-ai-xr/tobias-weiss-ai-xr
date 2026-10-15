@@ -23,20 +23,12 @@ Building at the intersection of **AI**, **XR**, and **digital sovereignty** — 
 
 ### 🎓 Workshops & Trainings
 
-<<<<<<< HEAD
-| When | What | Where |
-|------|------|-------|
-| **30 Sep 2026** | **Agentic AI in der Praxis — vom Spec zum produktiven Workflow** · 3h hands-on workshop, streamed & recorded · [📖 repo](https://github.com/tobias-weiss-ai-xr/IT4Science-Days-2026-agentic-ai-workshop) | [IT4Science Days 2026](https://plan.events.mpg.de/event/670/contributions/4047/), MPI-NAT Göttingen |
-| ongoing | **KI-Kompetenz-Training** — AI-literacy trainings & workshops for teams and organizations, evidence-based ([research](https://github.com/tobias-weiss-ai-xr/ai-literacy-research)) | [ki-kompetenz-training.org](https://ki-kompetenz-training.org) |
-| ongoing | **Immersive Chemistry Learning** — WebXR learning environment + research corpus | [chemie-lernen.org](https://chemie-lernen.org) |
-=======
 | Workshop | Where |
 |---------|-------|
 | **Agentic AI in der Praxis — vom Spec zum produktiven Workflow** · 3h hands-on, streamed & recorded · [📖 materials](https://github.com/tobias-weiss-ai-xr/IT4Science-Days-2026-agentic-ai-workshop) | [IT4Science Days](https://plan.events.mpg.de/event/670/contributions/4047/), MPI-NAT Göttingen |
-| **Agentic AI meets Sovereign Cloud** — openEduSuite on SCS-verified bare-metal · [📖 materials](https://github.com/tobias-weiss-ai-xr/sovereign-cloud-days-2026) | Sovereign Cloud Days |
+| **Agentic AI meets Sovereign Cloud** — openEduSuite on SCS-verified bare-metal · [📖 materials](https://github.com/tobias-weiss-ai-xr/sovereign-cloud-days-2026) | [Sovereign Cloud Days 2026](https://github.com/tobias-weiss-ai-xr/sovereign-cloud-days-2026) |
 | **KI-Kompetenz-Training** — AI-literacy trainings & workshops for teams and organizations, evidence-based ([research](https://github.com/tobias-weiss-ai-xr/ai-literacy-research)) | [ki-kompetenz-training.org](https://ki-kompetenz-training.org) |
 | **Immersive Chemistry Learning** — WebXR learning environment + research corpus | [chemie-lernen.org](https://chemie-lernen.org) |
->>>>>>> 232b15d (profile update: workshops without dates, add Sovereign Cloud Days + opensme-compose repo)
 
 ---
 
@@ -56,8 +48,8 @@ I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-wei
 
 ### 🛠 Featured open source
 
-| Project | |
-|--------|---|
+| Project | Description |
+|---------|-------------|
 | [skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research) | Config-driven, auto-validated literature-review pipeline: `papers.yaml` → README/stats/reports + CI + Pages. Powers the [research repos](https://github.com/tobias-weiss-ai-xr?tab=repositories&q=*-research). |
 | [docmakerai](https://github.com/tobias-weiss-ai-xr/docmakerai) | Auto-generates end-user software tutorials from Playwright screen recordings via LLM analysis → Docusaurus. |
 | [riemann-research](https://github.com/tobias-weiss-ai-xr/riemann-research) | Riemann Hypothesis research corpus — Dgraph KB + prethought space + taskfleet. |
@@ -70,8 +62,8 @@ I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-wei
 
 ### 🏢 Sovereign business platforms
 
-| | |
-|--|---|
+| Platform | Description |
+|----------|-------------|
 | [openEduSuite](https://openedu.graphwiz.ai/) | Open-source educational services on Kubernetes — ILIAS, Moodle, BigBlueButton |
 | [openSME-compose](https://opensme.graphwiz.ai/) · [📦 repo](https://github.com/tobias-weiss-ai-xr/opensme-compose) | Docker Compose digital workplace for 5–500 users: Portal (Rust), Zitadel SSO, OpenCloud, Collabora, Stalwart, SOGo, Paperless |
 | [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context-based lead generation |

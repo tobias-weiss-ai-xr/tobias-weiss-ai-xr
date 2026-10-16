@@ -68,10 +68,6 @@ I build my own extensions for it: [pi-saia-plugin](https://github.com/tobias-wei
 | [openSME-compose](https://opensme.graphwiz.ai/) · [📦 repo](https://github.com/tobias-weiss-ai-xr/opensme-compose) | Docker Compose digital workplace for 5–500 users: Portal (Rust), Zitadel SSO, OpenCloud, Collabora, Stalwart, SOGo, Paperless |
 | [Contextual Intelligence](https://contextual-intelligence.org) | Graph- and context-based lead generation |
 
-### 🌱 Side projects
-
-[MykoVolt](https://mykovolt.org/) — microbial fuel cells for decentralized energy · [World Office](https://codeberg.org/World-Office) — sovereign document editing from scratch
-
 ---
 
 `TypeScript` · `Rust` · `Python` · `Three.js` · `WebXR` · `Kubernetes` · `Nix` · `PostgreSQL` · `Neo4j` · `Docker`
